@@ -21,7 +21,7 @@ body {
     align-items: center;    
 }
 
-.header-nav {
+.header-nav.is-active {
     display: flex;
     gap: 40px;
     padding: 24px 0;  
