@@ -228,8 +228,13 @@ h2 {
     letter-spacing: 0.02em;   
 }
 
-.visually-hidden {
+/* .visually-hidden {
     visually: hidden;
+} */
+
+.section-two-item {
+    display: flex;
+    gap: 24px;  
 }
 
 button {
