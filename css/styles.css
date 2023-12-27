@@ -255,6 +255,10 @@ p {
     color: #2e2f42;   
 }
 
+.section-two-main {
+    padding: 120px 0;
+}
+
 .my-item {
     line-height: 1.5;    
 }
