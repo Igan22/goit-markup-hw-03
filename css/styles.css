@@ -20,13 +20,7 @@ body {
 .header-nav {
     display: flex; 
     align-items: center; 
-    gap: 40px;
-}
-
-.my-menu {
-    display: flex; 
-    align-items: center; 
-    gap: 40px;
+    gap: 40px
 }
 
 a {
