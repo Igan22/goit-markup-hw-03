@@ -26,9 +26,15 @@ body {
 .menu {
     display: flex;
     gap: 40px;
-    padding: 24px 0; 
+    padding: 24px 0;   
+}
 
-   
+.my-menu {
+    padding: 24px 0;
+}
+.my-list {
+    display: flex;
+    gap: 40px;
 }
 
 a {
