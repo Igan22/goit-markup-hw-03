@@ -6,6 +6,10 @@ body {
     background-color: #FFFFFF;
     color: #434455;
 }
+.my-healder {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 
 a {
     text-decoration: none;
