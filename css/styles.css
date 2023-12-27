@@ -7,6 +7,13 @@ body {
     color: #434455;
 }
 
+a {
+    text-decoration: none;
+    }
+    
+ul {
+    list-style: none;
+    }
 .header-logo {
     color: var(--IRIS, #4D5AE5);
     font-family: Raleway, sans-serif;
@@ -14,7 +21,7 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 1.17; 
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
@@ -30,7 +37,7 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 24px; /* 150% */
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
 .my-class-link:hover {
@@ -51,7 +58,7 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
 .my-link {
@@ -60,7 +67,7 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
     line-height: 1.5;
 }
 
@@ -79,7 +86,7 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 1.17; 
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
@@ -95,7 +102,7 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 24px; /* 150% */
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
 .my-class-link:hover {
@@ -116,7 +123,7 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
 .my-link {
@@ -125,7 +132,7 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
     line-height: 1.5;
 }
 
@@ -145,7 +152,7 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 1.12px;
+    letter-spacing: 0.02em;
     background-color: #2e2f42;
 }
 
@@ -194,7 +201,7 @@ h3 {
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
 }
 
 p {
@@ -203,7 +210,7 @@ p {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
 .section-two {
@@ -288,3 +295,15 @@ p {
 .heater-logo-span-foot {
     color: #f4f4fd;
 }
+
+
+/* ражень у секції Портфоліо висота має бути 300. І Експортувати потрібно безпосередньо саме зображення, а не всю картку. 
+Значення для letter-spacing потрібно задавати у em. Для цього потрібно розділити значення letter-spacing у px на значення font-size у px. Наприклад, 0.32рх / 16рх = 0.02em.
+І у файл css додайте
+a {
+text-decoration: none;
+}
+
+ul {
+list-style: none;
+} */
