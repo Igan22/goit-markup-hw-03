@@ -6,7 +6,7 @@ body {
     background-color: #FFFFFF;
     color: #434455;
 }
-.my-healder {
+.my-header {
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -18,12 +18,10 @@ body {
 }
 
 .menu {
-    
-    align-items: center; 
-    
+    align-items: center;    
 }
 
-.healder-nav {
+.header-nav {
     display: flex;
     gap: 40px;
     padding: 24px 0;  
