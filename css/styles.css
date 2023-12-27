@@ -20,7 +20,8 @@ body {
 .menu {
     display: flex; 
     align-items: center; 
-    gap: 40px
+    gap: 40px;
+    padding: 24px 0;
 }
 
 a {
