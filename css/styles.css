@@ -10,8 +10,11 @@ body {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.header-cont {
+.container {
     display: flex;
+    width: 1158px;
+    padding: 0 15px 15px;
+    /* для налаштування внутрішніх відступів для контенту (можна використовувати запис padding: 0 15px 0 15px, або padding-left: 15px та padding-right: 15px) */
 }
 
 a {
