@@ -32,7 +32,7 @@ body {
 ul>li.my-menu {
     padding: 24px 0;
 }
-ul.my-list {
+ul>li .my-list {
     display: flex;
     gap: 40px;
 }
