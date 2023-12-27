@@ -29,10 +29,10 @@ body {
     padding: 24px 0;   
 }
 
-ul>li.my-menu {
+.my-menu {
     padding: 24px 0;
 }
-ul>li .my-list {
+.my-list {
     display: flex;
     gap: 40px; 
 }
