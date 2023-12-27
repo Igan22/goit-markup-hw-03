@@ -13,7 +13,8 @@ body {
 .container {
     display: flex;
     width: 1158px;
-    padding: 0 15px 15px;
+    padding: 0 15px;
+    margin: 0 auto;
     /* для налаштування внутрішніх відступів для контенту (можна використовувати запис padding: 0 15px 0 15px, або padding-left: 15px та padding-right: 15px) */
 }
 
