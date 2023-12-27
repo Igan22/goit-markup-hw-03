@@ -17,14 +17,18 @@ body {
     margin: 0 auto;
 }
 
-.menu {
-    align-items: center;    
-}
+
 
 .header-nav {
+    align-items: center; 
+}
+
+.menu {
     display: flex;
     gap: 40px;
-    padding: 24px 0;  
+    padding: 24px 0; 
+
+   
 }
 
 a {
