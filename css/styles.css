@@ -29,7 +29,7 @@ body {
     padding: 24px 0;   
 }
 
-.my-menu {
+ul>li.my-menu {
     padding: 24px 0;
 }
 .my-list {
