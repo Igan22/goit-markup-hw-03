@@ -15,7 +15,11 @@ body {
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-    /* для налаштування внутрішніх відступів для контенту (можна використовувати запис padding: 0 15px 0 15px, або padding-left: 15px та padding-right: 15px) */
+}
+
+.header-nav {
+    display: flex; 
+    align-items: center; 
 }
 
 a {
@@ -34,6 +38,7 @@ ul {
     line-height: 1.17; 
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .heater-logo-span {
