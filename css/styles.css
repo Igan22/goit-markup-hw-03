@@ -118,22 +118,6 @@ ul {
     color: #404bbf;
 }
 
-.my-class-link:hover {
-    color: #404bbf;
-}
-
-.my-class-link:focus {
-    color: #404bbf;
-}
-
-.my-link:hover {
-    color: #404bbf 
-}
-
-.my-link:focus {
-    color: #404bbf;
-}
-
 .section-one {
     color: var(--WHITE, #fff);
     text-align: center;
