@@ -344,6 +344,13 @@ p {
     line-height: 1.2;
 }
 
+.my-section-four {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px; 
+    row-gap: 48px;     
+}
+
 .section-four-item {
     line-height: 1.5;   
 }
