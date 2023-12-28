@@ -296,6 +296,9 @@ p {
 
 .my-section-three {
     background-color: #FFFFFF;
+    display: flex;
+    gap: 24px; 
+
 }
 
 
