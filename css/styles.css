@@ -274,6 +274,9 @@ p {
     padding: 32px 0;
 }
 
+.three-cont {
+    padding: 32px 0 32px;
+}
 
 .section-three-item {
     text-align: center;
