@@ -301,8 +301,6 @@ p {
 
 }
 
-
-
 /* .my-item {
     line-height: 1.5;    
 } */
@@ -316,10 +314,6 @@ p {
     color: #2e2f42; 
     line-height: 1.11;  
     text-transform: capitalize
-}
-
-.my-section-three {
-    background-color: #FFFFFF;
 }
 
 .section-three-name {
