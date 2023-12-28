@@ -298,12 +298,16 @@ p {
     background-color: #FFFFFF;
     display: flex;
     gap: 24px; 
-
 }
 
-/* .my-item {
-    line-height: 1.5;    
-} */
+.my-hero {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px; 
+}
+
+.cont-hero {
+    padding: 32px 0;
+}
 
 .section-three {
     background-color: #F4F4FD;   
