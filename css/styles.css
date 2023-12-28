@@ -336,10 +336,10 @@ p {
     line-height: 1.5;   
 }
 
-/* .header-link {
+.header-link {
     display: inline-block;
     margin-bottom: 16px;
-} */
+}
 
 .my-footer {
     background-color: #2e2f42;
@@ -358,3 +358,6 @@ img {
     display: block;
 }
 
+
+
+margin-bottom: 16px;
