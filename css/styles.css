@@ -367,6 +367,10 @@ p {
 .section-four-item {
     line-height: 1.5;   
 }
+.header-link {
+    display: inline-block;
+    margin-bottom: 16px;
+}
 
 .my-footer {
     background-color: #2e2f42;
@@ -381,7 +385,7 @@ p {
 .heater-logo-span-foot {
     color: #f4f4fd;
 }
-ul>li>img {
+/* ul>li>img {
     display: block;
-}
+} */
 
