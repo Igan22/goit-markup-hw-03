@@ -331,6 +331,15 @@ p {
     line-height: 1.5;
     text-align: center; 
 }
+
+.section-four {
+    padding-top: 120px; 
+}
+
+.title-four {
+    margin-bottom: 72px;
+}
+
 .section-four-name {
     line-height: 1.2;
 }
