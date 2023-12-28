@@ -351,6 +351,11 @@ p {
     row-gap: 48px;     
 }
 
+.my-port {
+    width: calc((100% - 48px) / 3);     
+}
+
+
 .section-four-item {
     line-height: 1.5;   
 }
