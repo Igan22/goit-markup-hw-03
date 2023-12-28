@@ -269,7 +269,6 @@ p {
     margin-bottom: 8px;    
 }
 
-
 .section-two-main {
     padding: 120px 0;
 }
@@ -278,20 +277,21 @@ p {
     width: calc((100% - 72px) / 4);
 }
 
-
 .my-item {
     line-height: 1.5;    
 }
 
 .section-three {
-    background-color: #F4F4FD;   
+    background-color: #F4F4FD; 
+    padding: 120px 0;  
 }
 
 .section-three-item {
     text-align: center;
     color: #2e2f42; 
     line-height: 1.11;  
-    text-transform: capitalize
+    text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .my-section-three {
