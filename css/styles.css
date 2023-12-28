@@ -274,7 +274,7 @@ p {
     padding: 120px 0;
 }
 
-.section-two-item .two-item {
+.two-item {
     width: calc((100% - 72px) / 4);
 }
 
