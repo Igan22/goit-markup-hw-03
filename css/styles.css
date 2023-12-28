@@ -6,6 +6,7 @@ body {
     background-color: #FFFFFF;
     color: #434455;
 }
+
 .my-header {
     border-bottom: 1px solid #e7e9fc;
 }
@@ -16,8 +17,6 @@ body {
     padding: 0 15px;
     margin: 0 auto;
 }
-
-
 
 .header-nav {
     align-items: center; 
@@ -39,11 +38,12 @@ body {
 
 a {
     text-decoration: none;
-    }
+}
     
 ul {
     list-style: none;
-    }
+}
+
 .header-logo {
     color: var(--IRIS, #4D5AE5);
     font-family: Raleway, sans-serif;
@@ -56,8 +56,6 @@ ul {
     margin-right: 76px;
     padding: 24px 0;
 }
-
-
 
 .header-logo-span {
     color: #2e2f42;
@@ -115,10 +113,6 @@ ul {
     color: #404bbf;
 }
 
-
-
-
-
 .my-class-link {
     color: var(--NAVY-BLUE, #2E2F42);
     line-height: 1.5;
@@ -136,29 +130,6 @@ ul {
 
 .my-class-link:focus {
     color: #404bbf;
-}
-
-.not-kursiv {
-    font-style: normal;
-}
-
-.my-class {
-    color: var(--NAVY-BLUE, #2E2F42);
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    letter-spacing: 0.02em;
-}
-
-.my-link {
-    color: var(--SLATE, #434455);
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: 0.02em;
-    line-height: 1.5;
 }
 
 .my-link:hover {
