@@ -70,7 +70,7 @@ ul {
     font-weight: 500;
     line-height: 24px; /* 150% */
     letter-spacing: 0.02em;
-    padding: 24px 0;
+    padding: 24px 0 24px;
 }
 
 .my-class-link:hover {
