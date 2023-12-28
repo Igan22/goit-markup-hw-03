@@ -322,11 +322,14 @@ p {
 
 .section-three-name {
     line-height: 1.2;
+    text-align: center; 
+    margin-bottom: 8px;
 }
 
 .three-section-item {
     font-size: 16px;
     line-height: 1.5;
+    text-align: center; 
 }
 .section-four-name {
     line-height: 1.2;
