@@ -12,6 +12,10 @@ body {
     padding: 24px 0;
 }
 
+/* h1 {
+    width: 0 auto;
+} */
+
 .container {
     margin: 0 auto;
     width: 1158px;
@@ -37,6 +41,7 @@ body {
     text-transform: uppercase;
     margin-right: 76px;
     padding: 24px 0;
+
 }
 
 .header-nav {
@@ -90,6 +95,8 @@ ul {
     /* margin: 0 auto; */
 }
 
+
+
 .header-logo-span {
     color: #2e2f42;
 }
@@ -130,6 +137,8 @@ ul {
     letter-spacing: 0.02em;
 }
 
+
+
 .my-link:hover {
     color: #404bbf 
 }
@@ -153,6 +162,8 @@ ul {
 .container-title {
     display: flex;
     flex-direction: column;
+    /* justify-content: space-between;
+    height: 500px; */
 }
 
 .my-title {
@@ -179,6 +190,12 @@ ul {
     margin-top: 400px;
     display: block; 
     align-items: center;
+
+
+    /* display: block;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px; */
 }
 
 .my-button:hover {
@@ -188,6 +205,7 @@ ul {
 .my-button:focus {
     background-color: #404BBF;
 }
+
 
 h2 {
     font-family: Roboto;
@@ -245,7 +263,7 @@ p {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
-    margin: 0 auto;    
+    width calc((100% - 3 * 24px) / 4);    
 }
 
 .section-two-main {
@@ -253,15 +271,21 @@ p {
     /* margin: 0 auto; */
 }
 
+/* li, div, a {
+    margin: 0 auto;
+} */
+
 .two-item {
     flex-basis: calc((100%-3*24px)/4); 
     margin: 0 auto;
+
 }
 
 .my-item {
     line-height: 1.5;  
     width: calc((100% - 72px) / 4); 
-    margin: 0 auto; 
+    /* margin: 0 auto; 
+    width: calc((100% - 72px) / 4);   */
 }
 
 .section-three {
@@ -382,3 +406,7 @@ p {
 img {
     display: block;
 }
+
+ 
+
+/* margin-bottom: 16px; */
