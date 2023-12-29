@@ -214,7 +214,6 @@ h2 {
     letter-spacing: 0.02em;   
 }
 
-
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -231,6 +230,7 @@ h2 {
 .section-two-item {
     display: flex;
     gap: 24px;  
+    
 }
 
 button {
@@ -275,8 +275,8 @@ p {
 } */
 
 .two-item {
-    flex-basis: calc( (100% - 72px) / 4); 
-    width: calc( (100% - 72px) / 4);
+    flex-basis: calc((100%-72px)/4); 
+
     margin: 0 auto;
 }
 
@@ -291,8 +291,6 @@ p {
     padding: 120px 0; 
 
 }
-
-
 
 .section-three-item {
     text-align: center;
@@ -404,7 +402,7 @@ p {
     color: #f4f4fd;
 }
 img {
-    display: block;
+    display: flex;
 }
 
  
