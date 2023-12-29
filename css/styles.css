@@ -9,7 +9,7 @@ body {
 
 .my-header {
     border-bottom: 1px solid #e7e9fc;
-
+    width: 100%;
 }
 
 
@@ -19,9 +19,9 @@ body {
     flex-shrink: 0;
     margin: 0 auto; 
 } */
-h1 {
+/* h1 {
     width: 0 auto;
-}
+} */
 
 .container {
     display: flex;
