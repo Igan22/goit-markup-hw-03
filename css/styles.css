@@ -11,15 +11,15 @@ body {
     border-bottom: 1px solid #e7e9fc;
 }
 
-h1 {
+/* h1 {
     width: 0 auto;
-}
+} */
 
 .container {
     display: flex;
     width: 1158px;
     padding: 0 15px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .header-nav {
@@ -46,7 +46,7 @@ a {
     
 ul {
     list-style: none;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .header-logo {
@@ -137,7 +137,7 @@ ul {
     line-height: 1.07;
     letter-spacing: 0.02em;
     max-width: 496px;
-    width: 0 auto;
+    /* width: 0 auto; */
 }
 
 .my-button {
@@ -229,22 +229,22 @@ p {
 
 .section-two-main {
     padding: 120px 0;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
-li, div, a {
+/* li, div, a {
     margin: 0 auto;
-}
+} */
 
 .two-item {
     flex-basis: calc((100% - 72px) / 4); 
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .my-item {
     line-height: 1.5;  
-    margin: 0 auto; 
-    width: calc((100% - 72px) / 4);  
+    /* margin: 0 auto; 
+    width: calc((100% - 72px) / 4);   */
 }
 
 .section-three {
@@ -271,7 +271,6 @@ li, div, a {
 .my-hero {
     flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
-    margin: 0 auto;   
 }
 
 .cont-hero {
