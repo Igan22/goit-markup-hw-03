@@ -402,7 +402,7 @@ p {
     color: #f4f4fd;
 }
 img {
-    display: flex;
+    display: block;
 }
 
  
