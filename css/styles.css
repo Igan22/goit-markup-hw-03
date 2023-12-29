@@ -231,6 +231,10 @@ p {
     padding: 120px 0;
 }
 
+li {
+    margin: 0 auto;
+}
+
 .two-item {
     flex-basis: calc((100% - 72px) / 4); 
 }
