@@ -9,11 +9,10 @@ body {
 
 .my-header {
     border-bottom: 1px solid #e7e9fc;
-    width: 100%;
 }
 
 
-/* .my-main {
+/* .my-mail {
     width: 1440px;
     height: 600px;
     flex-shrink: 0;
@@ -138,15 +137,11 @@ ul {
     letter-spacing: 0.02em;
     background-color: #2e2f42;
     padding: 188px 0;
+
     width: 1440px;
     height: 600px;
-    margin-left: 600px;
-    margin-right: 0;
-
-    /* width: 1440px;
-    height: 600px;
     flex-shrink: 0;
-    margin: 0 auto; */
+    margin: 0 auto;
 }
 
 .my-title {
