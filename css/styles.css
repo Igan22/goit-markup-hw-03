@@ -235,7 +235,7 @@ li, div, a {
     margin: 0 auto;
 }
 
-.benefits .two-item {
+.two-item {
     flex-basis: calc((100% - 72px) / 4); 
     margin: 0 auto;
 }
