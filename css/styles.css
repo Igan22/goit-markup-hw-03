@@ -134,6 +134,7 @@ ul {
     width: 1440px;
     height: 600px;
     flex-shrink: 0;
+    margin: 0 auto;
 }
 
 .my-title {
