@@ -11,13 +11,6 @@ body {
     border-bottom: 1px solid #e7e9fc;
 }
 
-
-/* .my-mail {
-    width: 1440px;
-    height: 600px;
-    flex-shrink: 0;
-    margin: 0 auto; 
-} */
 /* h1 {
     width: 0 auto;
 } */
@@ -138,10 +131,7 @@ ul {
     background-color: #2e2f42;
     padding: 188px 0;
 
-    width: 1440px;
-    height: 600px;
-    flex-shrink: 0;
-    margin: 0 auto;
+    
 }
 
 .my-title {
