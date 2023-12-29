@@ -231,7 +231,7 @@ p {
     padding: 120px 0;
 }
 
-li {
+li, div, a {
     margin: 0 auto;
 }
 
