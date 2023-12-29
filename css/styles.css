@@ -249,8 +249,7 @@ li, div, a {
 
 .section-three {
     background-color: #F4F4FD; 
-    padding: 120px 0;
-    margin: 0 auto;     
+    padding: 120px 0;   
 }
 
 
@@ -271,7 +270,8 @@ li, div, a {
 
 .my-hero {
     width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px; 
+    border-radius: 0px 0px 4px 4px;
+    margin: 0 auto;   
 }
 
 .cont-hero {
