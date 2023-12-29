@@ -9,6 +9,7 @@ body {
 
 .my-header {
     border-bottom: 1px solid #e7e9fc;
+    padding: 24px 0;
 }
 
 /* h1 {
@@ -18,16 +19,32 @@ body {
 .container {
     margin: 0 auto;
     width: 1158px;
-    padding: 0 15px;  
+    padding: 0 15px; 
+    display: flex; 
 }
 
 .header-container {
     display: flex;
 }
 
-.header-nav {
-    align-items: center; 
+.header-logo {
+    color: var(--IRIS, #4D5AE5);
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17; 
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-right: 76px;
+    padding: 24px 0;
+    margin-top: 30px;
+}
 
+.header-nav {
+    display: flex;
+
+    padding: 24px 0;
 }
 
 .menu {
@@ -51,6 +68,9 @@ address {
 .my-list {
     display: flex;
     gap: 40px; 
+    margin-top: 48px;
+    margin-right: auto;
+    margin-left: 80px;
 }
 
 .my-link {
@@ -72,18 +92,7 @@ ul {
     /* margin: 0 auto; */
 }
 
-.header-logo {
-    color: var(--IRIS, #4D5AE5);
-    font-family: Raleway, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.17; 
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    margin-right: 76px;
-    padding: 24px 0;
-}
+
 
 .header-logo-span {
     color: #2e2f42;
@@ -109,10 +118,11 @@ ul {
     color: #404bbf;
 }
 
-.not-kursiv {
+.addresses {
     font-style: normal;
     display: flex; 
     gap: 40px;
+    margin-left: 0 auto;
 }
 
 .my-class {
