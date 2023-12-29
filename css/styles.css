@@ -227,9 +227,10 @@ p {
     margin-bottom: 8px;    
 }
 
-/* .section-two-main {
+.section-two-main {
     padding: 120px 0;
-} */
+    margin: 0 auto;
+}
 
 li, div, a {
     margin: 0 auto;
