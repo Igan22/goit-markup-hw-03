@@ -188,7 +188,7 @@ ul {
     border: none; 
     border-radius: 4px; 
     margin-top: 400px;
-    display: flex;
+    display: block; 
     align-items: center;
 
 
