@@ -282,6 +282,7 @@ p {
 
 .my-item {
     line-height: 1.5;  
+    width: calc((100% - 72px) / 4); 
     /* margin: 0 auto; 
     width: calc((100% - 72px) / 4);   */
 }
