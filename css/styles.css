@@ -265,7 +265,6 @@ h2 {
     height: 104px
     /* widht-top: 792px
     widht-left: 156px */
-    
       
 }
 
@@ -305,7 +304,7 @@ p {
 
 
 
-.two-item-problem {
+ul .two-item-problem {
     flex-basis: calc((100% - 72px) / 4);
     /* margin: 0 auto; */
 
