@@ -297,7 +297,7 @@ p {
     margin: 0 auto;
 } */
 
-.section-two-item .two-item {
+.two-item {
     flex-basis: calc((100%-3*24px)/4); 
     margin: 0 auto;
 
