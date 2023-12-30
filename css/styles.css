@@ -22,7 +22,7 @@ body {
 }
 
 .header-container {
-    display: flex;
+    /* display: flex; */
 }
 
 .header-logo {
@@ -38,7 +38,7 @@ body {
 }
 
 .header-nav {
-    display: flex;
+    /* display: flex; */
     align-items: center;
 }
 
@@ -107,7 +107,7 @@ ul {
 
 .addresses {
     font-style: normal;
-    display: flex; 
+    /* display: flex;  */
     gap: 40px;
     margin: auto;
     font-size: 22px;
@@ -176,7 +176,7 @@ h1 {
 
 
     display: flex;
-    align-items: center; /* Центрирование по вертикали */
+    align-items: center; 
 
     }
     
@@ -308,7 +308,7 @@ p {
 } */
 
 .section-two-item> .two-item-problem {
-    fflex-basis: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
     margin: 0 auto;
 
 }
@@ -342,7 +342,7 @@ p {
 
 .my-section-three {
     background-color: #FFFFFF;
-    display: flex;
+    /* display: flex; */
     gap: 24px; 
 }
 
