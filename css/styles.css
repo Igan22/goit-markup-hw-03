@@ -11,7 +11,7 @@ body {
     border-bottom: 1px solid #e7e9fc;
     padding: 24px 0;
     display: flex; 
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .container {
@@ -109,7 +109,7 @@ ul {
     font-style: normal;
     /* display: flex;  */
     gap: 40px;
-    margin: auto;
+    /* margin: auto; */
     font-size: 22px;
 }
 
@@ -172,7 +172,7 @@ h1 {
     /* display: flex; */
     /* align-items: flex-start; */
     flex-direction: column;
-    margin: 0 auto;  
+    /* margin: 0 auto;   */
 
 
     display: flex;
@@ -189,7 +189,7 @@ h1 {
     line-height: 1.07;
     letter-spacing: 0.02em;
     max-width: 496px;
-    margin: 188px 472px 292px 472px;
+    /* margin: 188px 472px 292px 472px; */
 }
 
 .my-button {
@@ -265,6 +265,7 @@ h2 {
     height: 104px
     /* widht-top: 792px
     widht-left: 156px */
+    
       
 }
 
@@ -303,13 +304,10 @@ p {
 } */
 
 
-/* li, div, a {
-    margin: 0 auto;
-} */
 
 .two-item-problem {
     flex-basis: calc((100% - 72px) / 4);
-    margin: 0 auto;
+    /* margin: 0 auto; */
 
 }
 
