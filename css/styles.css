@@ -258,6 +258,12 @@ h2 {
     /* margin: 0 auto; */
 }
 
+.strategy-container {
+    display: flex;
+    gap: 24px;   
+    margin: 0 auto;   
+}
+
 /* 
 button {
     background: var(--IRIS, #4D5AE5);
@@ -298,7 +304,7 @@ p {
 } */
 
 .two-item {
-    flex-basis: calc((100%-3*24px)/4); 
+    fflex-basis: calc((100% - 72px) / 4);
     margin: 0 auto;
 
 }
