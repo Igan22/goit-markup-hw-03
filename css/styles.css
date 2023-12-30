@@ -307,7 +307,7 @@ p {
     margin: 0 auto;
 } */
 
-.section-two-item> .two-item-problem {
+.two-item-problem {
     flex-basis: calc((100% - 72px) / 4);
     margin: 0 auto;
 
@@ -324,8 +324,8 @@ p {
     width: calc((100% - 72px) / 4); 
     /* margin: 0 auto; 
     width: calc((100% - 72px) / 4);   */
- */
 
+/* 
 .section-three {
     background-color: #F4F4FD; 
     padding: 120px 0; 
@@ -443,8 +443,7 @@ p {
 }
 img {
     display: block;
-}
+} */
 
  
 
-/* margin-bottom: 16px; */
