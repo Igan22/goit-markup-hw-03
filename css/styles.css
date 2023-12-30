@@ -261,7 +261,11 @@ h2 {
 .strategy-container {
     display: flex;
     gap: 24px;   
-    margin: 0 auto;   
+    width: 1128px
+    height: 104px
+    /* widht-top: 792px
+    widht-left: 156px */
+      
 }
 
 /* 
@@ -303,7 +307,7 @@ p {
     margin: 0 auto;
 } */
 
-.two-item {
+.two-item-problem {
     fflex-basis: calc((100% - 72px) / 4);
     margin: 0 auto;
 
