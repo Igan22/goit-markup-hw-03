@@ -253,7 +253,7 @@ h2 {
     gap: 24px;    
 }
 
-.section-two-main {
+.section-two {
     padding: 120px 0;
     /* margin: 0 auto; */
 }
@@ -297,7 +297,7 @@ p {
     margin: 0 auto;
 } */
 
-.two-item {
+.section-two-item .two-item {
     flex-basis: calc((100%-3*24px)/4); 
     margin: 0 auto;
 
