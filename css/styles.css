@@ -307,7 +307,7 @@ p {
     margin: 0 auto;
 } */
 
-.section-two-item .two-item-problem {
+.section-two-item> .two-item-problem {
     fflex-basis: calc((100% - 72px) / 4);
     margin: 0 auto;
 
