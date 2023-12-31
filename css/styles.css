@@ -24,7 +24,7 @@ body {
 }
 
 .header-logo {
-    color: var(--IRIS, #4D5AE5);
+    color: #4D5AE5;
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -86,7 +86,7 @@ ul {
 }
 
 .my-class-link {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: #2E2F42;
     line-height: 1.5;
     font-family: Roboto, sans-serif;
     font-size: 16px;
@@ -114,7 +114,7 @@ ul {
 }
 
 .my-class {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: #2E2F42;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -133,7 +133,7 @@ ul {
 .section-one {
     padding: 188px 0; 
     background-color: #2e2f42;
-    color: var(--WHITE, #fff);     
+    color: #fff;     
     width: 1440px;
     margin: 0 auto; 
     height: 600px;
@@ -141,7 +141,7 @@ ul {
 
 
 h1 {
-    color: var(--WHITE, #FFF);
+    color: #FFF;
     text-align: center;
     max-width: 496px;
     height: 120px;
@@ -365,14 +365,17 @@ ul .two-item-problem {
 }
 
 .footer-item {
-    line-height: 1.5;
 
+    line-height: 1.5;
     color: #F4F4FD;    
 }
 
+
 .heater-logo-span-foot {
 
-    color: #f4f4fd;
+    color: #f4f4fd
+
+
 }
 
 img {
