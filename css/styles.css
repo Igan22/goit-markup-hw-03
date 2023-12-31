@@ -196,12 +196,16 @@ h1 {
     background-color: #404BBF;
 }
 
-h2 {
+.section-two {
+    padding: 120px 0;
+}
+
+/* h2 {
     font-family: Roboto;
     font-weight: 700;
     font-size: 36px;
     letter-spacing: 0.02em;   
-}
+} */
 
 .visually-hidden {
     position: absolute;
@@ -221,14 +225,9 @@ h2 {
     gap: 24px;    
 }
 .two-item-problem {
-
     width: calc((100% - 72px) / 4);
 }
 
-
-.section-two {
-    padding: 120px 0;
-}
 
 /* .strategy-container {
     gap: 24px;   
