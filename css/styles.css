@@ -20,7 +20,7 @@ body {
 }
 
 .header-container {
-    /* display: flex; */
+
 }
 
 .header-logo {
@@ -44,9 +44,7 @@ body {
 }
 
 .header-link {
-
     margin: 0 auto;
-
     gap: 10px;
 }
 
@@ -61,7 +59,6 @@ body {
 .my-list {
     display: flex;
     gap: 40px; 
-
     margin-right: auto;
     margin-left: 80px;
 }
@@ -110,9 +107,9 @@ ul {
 
 .addresses {
     font-style: normal;
-    /* display: flex;  */
+
     gap: 40px;
-    /* margin: auto; */
+
     font-size: 22px;
 }
 
@@ -140,16 +137,6 @@ ul {
     width: 1440px;
     margin: 0 auto; 
     height: 600px;
-    /* 
-    text-align: center;
-    font-family: Roboto;
-    font-size: 56px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-*/
-
 }
 
 
@@ -158,8 +145,6 @@ h1 {
     text-align: center;
     max-width: 496px;
     height: 120px;
-    
-    /* Header 1 */
     font-family: Roboto;
     font-size: 56px;
     font-style: normal;
@@ -169,19 +154,12 @@ h1 {
 }
 
 
-.title-container{
-    /* display: flex; */
+.title-container {
     display: block;
-    /* display: flex; */
-    /* align-items: flex-start; */
     flex-direction: column;
-    /* margin: 0 auto;   */
-
-
     display: flex;
     align-items: center; 
-
-    }
+}
     
 
 .my-title {
@@ -189,8 +167,7 @@ h1 {
     line-height: 1.07;
     letter-spacing: 0.02em;
     max-width: 496px;
-    /* margin: 188px 472px 292px 472px; */
-}
+}    
 
 .my-button {
     font-family: "Roboto", sans-serif;
@@ -206,17 +183,6 @@ h1 {
     border: none; 
     border-radius: 4px;
     gap: 48px;
-
-    /* margin-top: 400px;
-  */
-    /* align-items: center; */
-    /* display: flex;
-
-    display: block;
-    display: inline-flex;
-    padding: 16px 32px;
-    align-items: flex-start;
- */
 }
 
 .my-button:hover {
@@ -226,7 +192,6 @@ h1 {
 .my-button:focus {
     background-color: #404BBF;
 }
-
 
 h2 {
     font-family: Roboto;
@@ -255,24 +220,13 @@ h2 {
 
 .section-two {
     padding: 120px 0;
-    /* margin: 0 auto; */
 }
 
 .strategy-container {
-
     gap: 24px;   
-    width: 1128px
-    height: 104px
-    /* widht-top: 792px
-    widht-left: 156px */
-      
+    width: 1128px;
+    height: 104px;   
 }
-
-/* 
-button {
-    background: var(--IRIS, #4D5AE5);
-    text-align: center;
-} */
 
 h3 {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -291,42 +245,23 @@ p {
     font-weight: 400;
     letter-spacing: 0.02em;
 }
-/* 
-.section-two {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 8px;
-    width calc((100% - 3 * 24px) / 4);    
-} */
-
-
 
 ul .two-item-problem {
     flex-basis: calc((100% - 72px) / 4);
-    /* margin: 0 auto; */
-
 }
 
 .title-two {
     margin-bottom: 8px;
 }
 
-
-
-
 .my-item {
     line-height: 1.5;  
     width: calc((100% - 72px) / 4); 
 }
 
-
 .section-three {
     background-color: #F4F4FD; 
     padding: 120px 0; 
-
 }
 
 .section-three-item {
@@ -339,7 +274,6 @@ ul .two-item-problem {
 
 .my-section-three {
     background-color: #FFFFFF;
-    /* display: flex; */
     gap: 24px; 
 }
 
@@ -432,12 +366,15 @@ ul .two-item-problem {
 
 .footer-item {
     line-height: 1.5;
+
     color: #F4F4FD;    
 }
 
 .heater-logo-span-foot {
+
     color: #f4f4fd;
 }
+
 img {
     display: block;
 }
