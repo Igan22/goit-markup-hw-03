@@ -220,6 +220,10 @@ h2 {
     display: flex;
     gap: 24px;    
 }
+.two-item-problem {
+    width: calc((100% - 3 * 24px) / 4);
+}
+
 
 .section-two {
     padding: 120px 0;
@@ -240,26 +244,25 @@ h3 {
     letter-spacing: 0.02em;
 }
 
-p {
+/* p {
     color: #434455;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0.02em;
-}
+} */
 
-.two-item-problem {
-    flex-basis: calc((100% - 72px) / 4);
-}
 
 .title-two {
     margin-bottom: 8px;
 }
 
+
+
 .my-item {
     line-height: 1.5;  
-    width: calc((100% - 72px) / 4); 
+
 }
 
 .section-three {
