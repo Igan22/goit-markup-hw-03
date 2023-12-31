@@ -249,7 +249,7 @@ p {
     letter-spacing: 0.02em;
 }
 
-ul .two-item-problem {
+.two-item-problem {
     flex-basis: calc((100% - 72px) / 4);
 }
 
