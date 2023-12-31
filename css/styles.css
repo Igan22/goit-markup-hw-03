@@ -32,7 +32,7 @@ body {
     line-height: 1.17; 
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-right: 76px 
+    margin-right: 76px; 
 }
 
 .header-nav {
@@ -41,6 +41,7 @@ body {
 
 .menu {
     display: flex;
+    gap: 40px;
 }
 
 .header-link {
@@ -92,7 +93,7 @@ ul {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px; /* 150% */
+    line-height: 24px; 
     letter-spacing: 0.02em;
     padding: 24px 0 24px;
 }
@@ -123,7 +124,7 @@ ul {
 }
 
 .my-link:hover {
-    color: #404bbf 
+    color: #404bbf; 
 }
 
 .my-link:focus {
@@ -229,7 +230,7 @@ h2 {
 }
 
 h3 {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: #2E2F42;
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
@@ -238,7 +239,7 @@ h3 {
 }
 
 p {
-    color: var(--SLATE, #434455);
+    color: #434455;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -294,7 +295,7 @@ ul .two-item-problem {
     text-align: center;
     color: #2e2f42; 
     line-height: 1.11;  
-    text-transform: capitalize
+    text-transform: capitalize;
 }
 
 .section-three-name {
@@ -373,7 +374,7 @@ ul .two-item-problem {
 
 .heater-logo-span-foot {
 
-    color: #f4f4fd
+    color: #f4f4fd;
 
 
 }
@@ -381,6 +382,3 @@ ul .two-item-problem {
 img {
     display: block;
 }
-
- 
-
