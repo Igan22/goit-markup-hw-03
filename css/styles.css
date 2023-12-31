@@ -221,7 +221,8 @@ h2 {
     gap: 24px;    
 }
 .two-item-problem {
-    width: calc((100% - 3 * 24px) / 4);
+
+    width: calc((100% - 72px) / 4);
 }
 
 
