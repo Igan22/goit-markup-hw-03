@@ -37,11 +37,12 @@ body {
 
 .header-nav {
     align-items: center;
+    gap: 40px;
 }
 
 .menu {
     display: flex;
-    gap: 40px;
+
 }
 
 .header-link {
