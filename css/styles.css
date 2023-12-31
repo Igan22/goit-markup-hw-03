@@ -19,10 +19,6 @@ body {
     display: flex; 
 }
 
-.header-container {
-
-}
-
 .header-logo {
     color: #4D5AE5;
     font-family: Raleway, sans-serif;
@@ -37,13 +33,14 @@ body {
 
 .header-nav {
     align-items: center;
-    gap: 40px;
+
 }
 
 .menu {
     display: flex;
-
+    gap: 40px;   
 }
+/* объеденить бы два верхних правила */
 
 .header-link {
     margin: 0 auto;
@@ -73,6 +70,10 @@ body {
     font-weight: 400;
     letter-spacing: 0.02em;
     line-height: 1.5;
+}
+
+.my-menu {
+    margin-right: 40px; 
 }
 
 a {
