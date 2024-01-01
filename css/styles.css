@@ -75,6 +75,9 @@ body {
 
 a {
     text-decoration: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
     
 ul {
@@ -341,7 +344,7 @@ h3 {
     height: 40px
     /* border: 0 1440px; */
     
-    margin-left: 611px */
+    /* margin-left: 611px */
 
 
 }
@@ -383,29 +386,21 @@ h3 {
 /* problem */
 .header-link-footer {
     display: inline-block;
-    margin-bottom: 16px;
-    
+    margin-bottom: 16px;    
 }
 
 .my-footer {
     background-color: #2e2f42;
     padding: 100px 0;
-
 }
 
 .footer-item {
-
     line-height: 1.5;
-
     color: #F4F4FD;    
 }
 
-
 .heater-logo-span-foot {
-
     color: #f4f4fd;
-
-
 }
 
 img {
