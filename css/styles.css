@@ -41,19 +41,19 @@ body {
 
 .menu {
     display: flex;
-    /* gap: 40px; */
+    gap: 40px;
     
 }
 /* объеденить бы два верхних правила */
 
-.header-link {
+/* .header-link {
     /* margin: 0 auto; */
     /* margin-left: 0;
     padding-top: 0;
   
     margin-bottom: 0; */
     gap: 40px; 
-}
+} */
 
 .addresses {
     font-style: normal;
