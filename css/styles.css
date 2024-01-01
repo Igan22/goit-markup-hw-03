@@ -33,7 +33,7 @@ body {
 
 .header-nav {
     align-items: center;
-
+    gap: 40px;
 }
 
 .menu {
@@ -281,6 +281,7 @@ h3 {
 .my-section-three {
     background-color: #FFFFFF;
     gap: 24px; 
+    display: flex; 
 }
 
 .my-hero {
