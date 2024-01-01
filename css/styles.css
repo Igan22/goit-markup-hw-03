@@ -200,12 +200,13 @@ h1 {
     padding: 120px 0;
 }
 
-/* h2 {
+h2 {
     font-family: Roboto;
     font-weight: 700;
     font-size: 36px;
-    letter-spacing: 0.02em;   
-} */
+    letter-spacing: 0.02em;
+    align-self: center;   
+}
 
 .visually-hidden {
     position: absolute;
@@ -291,9 +292,9 @@ h3 {
     border-radius: 0px 0px 4px 4px;
 }
 
-div .cont-hero {
+/* div .cont-hero {
     padding: 32px 0;
-}
+} */
 
 /* .three-cont {
     padding: 32px 0 32px;
@@ -325,9 +326,21 @@ div .cont-hero {
 
 .title-four {
     margin-bottom: 72px;
+    width: 218px
+    margin-top: 1868px
+    height: 40px
+    /* border: 0 1440px; */
+    
+    margin-left: 611px
+
+
 }
 
-li .my-port {
+/* .portfolio {
+    display: column;
+} */
+
+.my-port {
     width: calc((100% - 48px) / 3); 
 }
 
@@ -342,15 +355,18 @@ li .my-port {
     margin-bottom: 8px;
 }
 
+.four-cont {
+    flex-direction: column;
+
+}
+
 .my-section-four {
     display: flex;
     flex-wrap: wrap;
     gap: 24px; 
-    row-gap: 48px;     
-}
-
-.my-port {
-    width: calc((100% - 48px) / 3);     
+    row-gap: 48px; 
+    margin-top: 10px;
+    /* box-sizing: border-box     */
 }
 
 .cont-hero {
@@ -359,9 +375,6 @@ li .my-port {
     border-top: none;    
 }
 
-.section-four-item {
-    line-height: 1.5;   
-}
 
 .header-link-footer {
     display: inline-block;
