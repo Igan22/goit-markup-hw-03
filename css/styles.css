@@ -385,7 +385,7 @@ h3 {
 }
 /* problem */
 .header-link-footer {
-    display: inline-block;
+    display: block;
     margin-bottom: 16px;    
 }
 
