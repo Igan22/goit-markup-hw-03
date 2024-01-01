@@ -327,7 +327,7 @@ div .cont-hero {
     margin-bottom: 72px;
 }
 
-.my-port {
+li .my-port {
     width: calc((100% - 48px) / 3); 
 }
 
