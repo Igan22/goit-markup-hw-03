@@ -19,6 +19,10 @@ body {
     /* display: flex;  */
 }
 
+.cont-header {
+    display: flex;
+}
+
 .header-logo {
     color: #4D5AE5;
     font-family: Raleway, sans-serif;
