@@ -226,7 +226,8 @@ h1 {
 }
 .two-item-problem {
     width: calc((100% - 72px) / 4);
-    margin: 0 auto;
+    margin-left: o;
+    margin-right: 0;
 }
 
 
