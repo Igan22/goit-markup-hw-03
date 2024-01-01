@@ -34,11 +34,12 @@ body {
 .header-nav {
     align-items: center;
     gap: 40px;
+    display: flex;
 }
 
 .menu {
-    display: flex;
-    gap: 40px;   
+
+
 }
 /* объеденить бы два верхних правила */
 
