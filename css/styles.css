@@ -33,22 +33,25 @@ body {
 
 .header-nav {
     align-items: center;
-    display: flex;
+    /* display: flex; */
     
 }
 
 .menu {
-    gap: 40px;
+    /* gap: 40px; */
     display: flex;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 
 
 }
 /* объеденить бы два верхних правила */
 
 .header-link {
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    margin-left: 0;
+    padding-top: 0;
     gap: 10px;
+    margin-bottom: 0;
 }
 
 .addresses {
@@ -56,14 +59,14 @@ body {
     display: flex;
     gap: 40px;
     font-size: 22px;
+    /* margin: 0 auto; */
 }
 
 
 .my-list {
     display: flex;
     gap: 40px; 
-    margin-right: auto;
-    margin-left: 80px;
+
 }
 
  .my-link {
@@ -78,10 +81,6 @@ body {
 
 .my-menu {
     margin-right: 40px; 
-}
-
-.my-menu-less {
-    
 }
 
 a {
