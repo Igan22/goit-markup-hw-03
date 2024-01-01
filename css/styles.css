@@ -294,11 +294,12 @@ h3 {
 
 .cont-hero-three {
     padding: 32px 0;
+    display: flex; 
 }
 
-/* .three-cont {
-    padding: 32px 0 32px;
-} */
+.three-cont {
+    flex-direction: column;
+}
 
 .section-three-item {
     text-align: center;
@@ -313,12 +314,12 @@ h3 {
     margin-bottom: 8px;
 }
 
-.three-section-item {
+/* .three-section-item {
     font-size: 16px;
     line-height: 1.5;
     text-align: center; 
-}
-
+} */
+/* ins */
 .section-four {
     padding-top: 120px; 
     padding-bottom: 120px; 
