@@ -311,7 +311,19 @@ p {
 .my-hero {
     flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    color: #fff;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
 
 .section-three-item {
     text-align: center;
