@@ -21,6 +21,7 @@ body {
 
 .cont-header {
     display: flex;
+    align-items: center;
 }
 
 .header-logo {
@@ -32,21 +33,22 @@ body {
     line-height: 1.17; 
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-right: 76px; 
+    /* margin-right: 76px;  */
 }
 
 .header-nav {
     align-items: center;
     display: flex;
-    
+    margin-right: auto;
 }
-
-
 
 .menu {
     display: flex;
-    gap: 40px;
-    
+    gap: 40px;   
+}
+
+.my-menu {
+    /* margin-right: 40px;  */
 }
 
 .addresses {
@@ -73,9 +75,6 @@ body {
     line-height: 1.5;
 }
 
-.my-menu {
-    margin-right: 40px; 
-}
 
 a {
     text-decoration: none;
@@ -105,6 +104,8 @@ ul {
     line-height: 24px; 
     letter-spacing: 0.02em;
     padding: 24px 0 24px;
+    display: block;
+
 }
 
 .my-class-link:hover {
@@ -144,9 +145,9 @@ ul {
     padding: 188px 0; 
     background-color: #2e2f42;
     color: #fff;     
-    width: 1440px;
+    /* width: 1440px;
     margin: 0 auto; 
-    height: 600px;
+    height: 600px; */
 }
 
 
@@ -154,13 +155,14 @@ h1 {
     color: #FFF;
     text-align: center;
     max-width: 496px;
-    height: 120px;
+    /* height: 120px; */
     font-family: Roboto;
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
     line-height: 60px; 
     letter-spacing: 1.12px; 
+    
 }
 
 
@@ -212,7 +214,8 @@ h2 {
     font-weight: 700;
     font-size: 36px;
     letter-spacing: 0.02em;
-    align-self: center;   
+    align-self: center;
+    margin: 0;   
 }
 
 .visually-hidden {
@@ -254,15 +257,15 @@ h3 {
     letter-spacing: 0.02em;
 }
 
-/* p {
+p {
     color: #434455;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0.02em;
-
-} */
+    margin: 0;   
+}
 
 
 .title-two {
@@ -299,10 +302,10 @@ h3 {
 }
 
 .my-section-three {
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
     gap: 24px; 
     display: flex; 
-    padding: 32px 0;
+    /* padding: 32px 0; */
 }
 
 .my-hero {
@@ -343,6 +346,7 @@ h3 {
 
 .title-four {
     margin-bottom: 72px;
+    text-align: center;
     /* width: 218px
     margin-top: 1868px
     height: 40px
@@ -364,7 +368,8 @@ h3 {
     flex-wrap: wrap;
     gap: 24px; 
     row-gap: 48px; 
-    margin-top: 10px;
+    margin: 0;
+    /* margin-top: 10px; */
     /* box-sizing: border-box     */
 }
 
@@ -400,7 +405,9 @@ h3 {
 
 .footer-item {
     line-height: 1.5;
-    color: #F4F4FD;    
+    color: #F4F4FD;
+    margin: 0; 
+    width: 264px;   
 }
 
 .heater-logo-span-foot {
